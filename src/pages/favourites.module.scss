@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    background-color: var(--color5);
+}
+
+.content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}

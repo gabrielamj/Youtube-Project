@@ -1,0 +1,34 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .form {
+        margin: 5%;
+        padding: 5%;
+        height: 100%;
+        width: 40%;
+        background-color: gainsboro;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        input {
+            width: 400px;
+            margin: 10px;
+            height: 30px;
+        }
+
+        .button {
+            height: auto;
+            padding: 15px 40px;
+            margin: 10px;
+            border-radius: 10rem;
+            border-style: none;
+          }
+    }
+}
+
