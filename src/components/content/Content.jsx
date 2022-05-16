@@ -1,11 +1,8 @@
-import PropTypes from 'prop-types'
 import Item from './Item'
 import styles from './content.module.scss'
 import data from '../../mocks/youtube-videos-mock.json'
 
-function Content(props) {
-
-  const {} = props;
+function Content() {
 
   const { items } = data;
   console.log(data);

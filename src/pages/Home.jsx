@@ -1,5 +1,3 @@
-import { StylesContext } from '@material-ui/styles'
-import PropTypes from 'prop-types'
 import Content from '../components/content/Content'
 import Header from '../components/header/Header'
 import styles from './home.module.scss'
