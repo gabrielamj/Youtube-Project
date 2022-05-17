@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import styles from './content.module.scss'
 
 function Item({title, description, thumbnails}) {
