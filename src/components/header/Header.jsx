@@ -2,7 +2,6 @@ import styles from './header.module.scss'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { CgProfile } from 'react-icons/cg'
 import SearchBar from './SearchBar'
-import { Switch } from '@material-ui/core'
 import { useState } from 'react'
 
 function Header(props) {
@@ -19,11 +18,6 @@ function Header(props) {
       </div>
 
       <div className={styles.right}>
-        <Switch 
-        checked={checked}
-        onChange={() => handleSwitch()}
-        inputProps={{ 'aria-label': 'controlled'}}
-        />
         <CgProfile style={{transform: 'scale(2)'}} />
       </div>
 
